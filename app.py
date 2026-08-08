@@ -7,7 +7,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
-api_key = os.getenv("AQ.Ab8RN6L_q96olRtRmbiBo7t_jN3GMZzAuvrOyYKIDj0ou98urA")
+api_key = os.getenv("AQ.Ab8RN6KKwi3T33KtAEGyCG5hkdexNb7DteQENs822g1tZpI08A")
 
 client = genai.Client(api_key=api_key)
 
