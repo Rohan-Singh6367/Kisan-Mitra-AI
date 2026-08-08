@@ -7,7 +7,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
-api_key = os.getenv("GEMINI_API_KEY")
+api_key = os.getenv("AQ.Ab8RN6LTVmAPo7PujjI2nacgECu5HQNV4kkbrL-TnAN92zxmZA")
 
 client = genai.Client(api_key=api_key)
 
